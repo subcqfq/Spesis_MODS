@@ -1,5 +1,5 @@
 ## PT-MLP·LSTM-eICU
-Consistent with the model described in Section 2.6.1, this model utilizes pre-training with integrated MIMIC-IV and eICU datasets and employs a high- and low-frequency data separation strategy.
+This model utilizes pre-training with integrated MIMIC-IV and eICU datasets and employs a high- and low-frequency data separation strategy.
 
 ## MLP·LSTM
 No pre-training is applied, but the high- and low-frequency data separation strategy is retained. The training data consists of 2,802 trauma sepsis patients from MIMIC-IV.
